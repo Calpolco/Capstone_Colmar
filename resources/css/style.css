@@ -1,6 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Universal page styles
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Universal page styles */
 
 * {
     margin: 0;
@@ -15,11 +13,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Main links
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-
+/* Main links */
 
 a:link {
     /* unvisited link */
@@ -46,9 +40,7 @@ a:active {
 
 #container {}
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Navigation Bar
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Navigation Bar */
 
 @media only screen and (min-width: 601px) {
 
@@ -78,7 +70,7 @@ a:active {
     }
 
     #logo h1 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         line-height: normal;
         font-size: 1.2em;
         font-weight: 700;
@@ -89,7 +81,7 @@ a:active {
     }
 
     #logo h1 span {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 400;
         color: #cecece;
     }
@@ -122,9 +114,7 @@ a:active {
 
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Navigation Bar - mobile
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Navigation Bar - mobile */
 
 @media only screen and (max-width: 600px) {
 
@@ -159,9 +149,7 @@ a:active {
     }
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Header
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Header */
 
 header {
     background-color: #d8d8d8;
@@ -185,15 +173,15 @@ header {
 }
 
 #banner-headline h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 900;
     color: #4a4a4a;
     font-size: 3em;
-    line-height: .8em;
+    line-height: 1em;
 }
 
 #banner-headline h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     color: #4a4a4a;
     font-size: 1em;
@@ -202,7 +190,7 @@ header {
 }
 
 .button {
-    background: #4a90e2;
+    background: #4a4a4a;
     width: 50%;
     padding: 8px 0;
     margin-top: 20px;
@@ -247,9 +235,8 @@ header {
     */
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Banner - mobile
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* Banner - mobile */
 
 @media only screen and (max-width: 600px) {
 
@@ -279,9 +266,7 @@ header {
     }
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Features
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Features */
 
 @media only screen and (min-width: 601px) {
 
@@ -297,7 +282,7 @@ header {
     }
 
     #features-headline h1 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 900;
         color: #4a4a4a;
         font-size: 2em;
@@ -305,7 +290,7 @@ header {
         padding: 32px 0px 24px 0px;
     }
     #features-headline h3 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 400;
         color: #6d6d6d;
         font-size: 1em;
@@ -313,7 +298,7 @@ header {
     }
 
     #features-headline h4 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 400;
         color: #4a4a4a;
         font-size: .8em;
@@ -322,9 +307,7 @@ header {
         margin-bottom: 32px;
     }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Features - sidebar
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Features - sidebar */
 
     #features-sidebar {
         width: 40%;
@@ -360,7 +343,7 @@ header {
     }
 
     #features-sidebar .sidebar h2 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: bold;
         font-size: 1.2em;
         float: none;
@@ -376,9 +359,8 @@ header {
 
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Features - mobile
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* Features - mobile */
 
 @media only screen and (max-width: 600px) {
 
@@ -403,7 +385,7 @@ header {
     }
 
     #features-sidebar .sidebar h2 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: bold;
         font-size: 1.2em;
         float: none;
@@ -420,9 +402,7 @@ header {
 
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Classes
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Classes */
 
 @media only screen and (min-width: 601px) {
 
@@ -442,7 +422,7 @@ header {
     #classes h1 {
         text-align: center;
         flex-basis: 100%;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 900;
         color: #4a4a4a;
         font-size: 2em;
@@ -457,7 +437,7 @@ header {
     }
 
     .class-description h2 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 900;
         color: #4a4a4a;
         font-size: 1.2em;
@@ -466,7 +446,7 @@ header {
     }
 
     .class-description h3 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         color: #6d6d6d;
         font-size: 1em;
         line-height: .8em;
@@ -474,7 +454,7 @@ header {
     }
 
     .class-description p {
-        font-family: 'Lato', sans-serif;
+        font-family: Helvetica, sans-serif;
         color: #6d6d6d;
         font-size: .8em;
         line-height: 1.2em;
@@ -483,9 +463,8 @@ header {
 
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Classes - mobile
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* Classes - mobile */
 
 @media only screen and (max-width: 600px) {
 
@@ -496,7 +475,7 @@ header {
     #mobile-classes h1 {
         text-align: center;
         flex-basis: 100%;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 900;
         color: #4a4a4a;
         font-size: 2em;
@@ -505,7 +484,7 @@ header {
     }
 
     #mobile-classes h2 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         color: #4a4a4a;
         background-color: #d8d8d8;
         font-weight: 600;
@@ -515,7 +494,7 @@ header {
     }
 
     #mobile-classes h2:hover {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         color: white;
         background-color: #4a90e2;
         font-weight: 600;
@@ -525,9 +504,7 @@ header {
     }
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Thesis Area
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Thesis Area */
 
 @media only screen and (min-width: 601px) {
 
@@ -542,7 +519,7 @@ header {
     #thesis h1 {
         text-align: center;
         flex-basis: 100%;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 900;
         color: #4a4a4a;
         font-size: 2em;
@@ -555,17 +532,14 @@ header {
         width: 60%;
     }
 
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Thesis - sidebar
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Thesis - sidebar */
 
     #thesis-sidebar {
         width: 40%;
     }
 
     #thesis-headline h1 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 900;
         color: #4a4a4a;
         font-size: 2em;
@@ -574,7 +548,7 @@ header {
     }
 
     #thesis-headline h2 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 900;
         color: #4a4a4a;
         font-size: 2em;
@@ -583,7 +557,7 @@ header {
     }
 
     #thesis-headline h3 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 400;
         color: #6d6d6d;
         font-size: 1em;
@@ -613,7 +587,7 @@ header {
     }
 
     #thesis-sidebar .sidebar h2 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: bold;
         font-size: 1.2em;
         float: none;
@@ -628,9 +602,7 @@ header {
     }
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Thesis - mobile styles
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Thesis - mobile styles */
 
 @media only screen and (max-width: 600px) {
 
@@ -641,7 +613,7 @@ header {
     #thesis h1 {
         text-align: center;
         flex-basis: 100%;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-weight: 900;
         color: #4a4a4a;
         font-size: 2em;
@@ -656,9 +628,7 @@ header {
 
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Footer
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Footer */
 
 @media only screen and (min-width: 601px) {
 
@@ -685,9 +655,7 @@ header {
     }
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* Footer - mobile styles
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Footer - mobile styles */
 
 @media only screen and (max-width: 600px) {
 
